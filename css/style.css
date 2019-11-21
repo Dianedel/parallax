@@ -1,0 +1,168 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    width: 100%;
+}
+.menu {
+    position: fixed;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0px;
+    color: white;
+    width: 1620px;
+    margin: 10px;
+    z-index: 3;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    display: block;
+    width: 210px;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+  }
+li a:hover {
+    background-color: gold;
+}
+#logo {
+    background-image: url("../img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 620px;
+    top: 0px;
+    z-index: 2;
+    position: fixed;
+}
+#logo2 {
+    background-image: url("../img/header-bg-2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    z-index: 1;
+    /* position: fixed; */
+    top: 0px;
+}
+
+main {
+    padding-top: 40px;
+    box-sizing: border-box;
+    margin-top: 620px;
+}
+.column {
+    width: 50%;
+    height: 630px;
+}
+.row {
+    display: table;
+    clear: both;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+#presentation {
+    color:black;
+    text-align: left justify;
+    float: left;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 7%;
+    height: auto;
+}
+#advertisement {
+    background-image: url("../img/ad.jpg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 600px;
+    margin-right: 6%;
+    float: right;
+    margin-top: 70px;
+    z-index: 2;
+    top: 0px;
+
+}
+#image {
+    background-image: url("../img/kiloren-2x.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 635px;
+}
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+.column2 {
+    width: 60%;
+    height: 290px;
+}
+#robot {
+    background-image: url("../img/r2d2_c3p0.jpg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 290px;
+    float: left;
+}
+#text {
+    float: right;
+    text-align: left;
+    height: 275px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 480px;
+    margin-left: 30px;
+}
+#text2 {    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+copyright {
+    width: 1250px;
+}
+#robotsWhites {
+    background-image: url("../img/stormtroopers-2x.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+#darkVador {
+    background-image: url("../img/darthvader_2x.jpg");
+    background-position: center;
+    width: 100%;
+    height: 542px;
+    background-color: #979797;
+}
+
+#darkVador p {
+    color: white;
+    margin-top: 0;
+    padding-top: 80px;
+    text-align: center;
+    opacity: 0.5;
+}
