@@ -50,17 +50,6 @@ li a:hover {
     z-index: 2;
     position: fixed;
 }
-#logo2 {
-    background-image: url("../img/header-bg-2x.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 620px;
-    z-index: 1;
-    /* position: fixed; */
-    top: 0px;
-}
-
 main {
     padding-top: 40px;
     box-sizing: border-box;
