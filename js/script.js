@@ -7,5 +7,5 @@ function parallax() {
 
     var scrolled = $(window).scrollTop();
 
-    $('#logo').css('top', -(scrolled * 0.9) + 'px');
+    $('#logo').css('top', -(scrolled * 0.8) + 'px');
 }
